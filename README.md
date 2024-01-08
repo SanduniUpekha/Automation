@@ -1,6 +1,7 @@
 # Automated Functional Tests Repository
 
 This repository contains automated functional tests for the Wiley Online Library website. The tests are implemented using Playwright and TypeScript.
+
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
 ![Playwright](https://img.shields.io/badge/-Playwright-00FFFF?style=flat-square&logo=playwright)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
