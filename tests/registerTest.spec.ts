@@ -19,13 +19,13 @@ test('verify registration functionality', async ({ page }) => {
   await page.selectOption('select[name="taxonomy[1].values"]', 'accounting');
 
    // Check the "Stay in Touch" checkbox
-   await page.check('input[name="label-txt::after"]');
+   await page.check('input[name="checkbox--primary"]');
 
    // Check the "Terms of Use" checkbox
-   await page.check('input[name="checkbox--primary::after"]');
+   await page.check('input[name="checkbox--primary"]');
  
    // Check the "I'm not a robot" checkbox
-   await page.check('input[name="recaptcha-checkbox-checkmark::after"]');
+   await page.check('input[name="recaptcha-checkbox-checkmark"]');
  
    // Click the Register button
    await page.click('button:has-text("Register")');
