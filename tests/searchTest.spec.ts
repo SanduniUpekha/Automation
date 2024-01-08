@@ -18,10 +18,9 @@ test('search product with advanced options', async ({ page }) => {
     // Navigate to the advanced search page
     await page.goto('https://onlinelibrary.wiley.com/search/advanced');
   
-    // Fill the advanced search form (replace with actual field values)
+    // Fill the advanced search form 
     await page.fill('input[name="author"]', 'author_name');
     await page.fill('input[name="title"]', 'book_title');
-    // Add more fields as needed...
   
     // Click the search button
     await page.click('button:has-text("Search")');

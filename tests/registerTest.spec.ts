@@ -30,7 +30,7 @@ test('verify registration functionality', async ({ page }) => {
    // Click the Register button
    await page.click('button:has-text("Register")');
  
-   // Verify successful registration (adjust selector based on actual behavior)
+   // Verify successful registration 
    await page.waitForSelector('.registration-success-message');
    await expect(page.locator('.registration-success-message')).toBeTruthy();
 });

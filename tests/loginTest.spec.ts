@@ -48,7 +48,7 @@ test('invalid email and password login', async ({ page }) => {
   // Click the login button
   await page.click('button[type="submit"]');
 
-  // Expects an error message (adjust the selector based on actual behavior)
+  // Expects an error message 
   await page.waitForSelector('.error-message');
   await expect(page.locator('.error-message')).toBeTruthy();
 });
